@@ -1,6 +1,10 @@
-require("./sep_module.js");
+// require("./sep_module.js");
+
+import { calculateSum, x } from "./sum.js";
+
+
 // destructring 
-const {x, calculateSum} =  require("./sum.js");
+// const {x, calculateSum} =  require("./sum.js");
 var name = "adil ayoub";
 
 
