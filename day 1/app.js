@@ -1,3 +1,5 @@
+require("./sep_module.js")
+;
 var name = "adil ayoub";
 
 
