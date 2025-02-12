@@ -11,7 +11,6 @@ function calculateSum(a,b){
 }
 
 module.exports =
-// we wrap it inside an obj 
-{ x: x,  // method and property x: x
- calculateSum : calculateSum,
+// clean structure
+{ x, calculateSum,
 };
