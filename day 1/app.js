@@ -1,5 +1,6 @@
 require("./sep_module.js");
-const obj =  require("./sum.js");
+// destructring 
+const {x, calculateSum} =  require("./sum.js");
 var name = "adil ayoub";
 
 
@@ -8,9 +9,9 @@ var  a = 10;
 var b = 20;
 
 
-obj.calculateSum(a,b)
+calculateSum(a,b)
 
-console.log(obj.x);
+console.log(x);
 
 console.log(name);
 console.log(a+b);
