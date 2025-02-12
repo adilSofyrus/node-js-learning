@@ -1,5 +1,5 @@
-require("./sep_module.js")
-;
+require("./sep_module.js");
+const calculateSum =  require("./sum.js");
 var name = "adil ayoub";
 
 
@@ -8,6 +8,7 @@ var  a = 10;
 var b = 20;
 
 
+calculateSum(a,b)
 
 console.log(name);
 console.log(a+b);
